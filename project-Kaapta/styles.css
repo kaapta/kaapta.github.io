@@ -1,0 +1,119 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #212121;
+  color: #fff;
+  font-size: 16px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navigation */
+.nav-main {
+  font-size: 17px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+
+/* Navbar Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+}
+
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 1600px;
+  margin-top: -20px;
+}
+
+
+
+/* Logos */
+
+
+.logos {
+  width: 27px;
+}
+
+#discord-logo{
+  cursor: pointer;
+}
+
+#discord-logo:hover {
+  color: #5865F2;
+  transition-duration: 750ms;
+}
+
+#instagram-logo{
+  cursor: pointer;
+}
+
+#instagram-logo:hover{
+  color: #C13584;
+  transition-duration: 750ms;
+}
+
+#twitter-logo{
+  cursor: pointer;
+}
+
+#twitter-logo:hover{
+  color: #1DA1F2;
+  transition-duration: 750ms;
+}
+
+/* Header */
+
+.header{
+  font-size: 17px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+
+.titulo_especial{
+  margin-top: 340px;
+  margin-left: 20px;
+  font-size: 80px;
+}
+
+.titulo_especial:hover{
+  color: #81cc84;
+  transition-duration: 750ms;
+}
+
+
